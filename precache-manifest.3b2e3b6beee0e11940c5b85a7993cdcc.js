@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "0763f2492d17c139e43c5bcea423d9c7",
-    "url": "/static/media/moodle-original.0763f249.svg"
+    "revision": "676cfcf2c4793e04817ac8923f3b7110",
+    "url": "/static/media/CYN desktop home page.676cfcf2.png"
   },
   {
-    "revision": "112d06b27bef60a98756",
-    "url": "/static/css/main.476e6de3.chunk.css"
+    "revision": "2794c9f9ae1a16b7fb24",
+    "url": "/static/css/main.5add0ba7.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "7cb01a0fe1b61ec19398",
-    "url": "/static/js/2.e861508f.chunk.js"
+    "revision": "2ee42e561c38efb423d8",
+    "url": "/static/js/2.99383cfb.chunk.js"
   },
   {
     "revision": "b7d3f6cee023056b336b1668a9f2b4cb",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "b9a60c22bca43ec579e91f0b85a86dba",
     "url": "/static/media/Teach-Tools desktop game display.b9a60c22.png"
+  },
+  {
+    "revision": "6e00e13733ac1cf62e73076612f95fa1",
+    "url": "/static/media/msba-desktop-1.6e00e137.png"
   },
   {
     "revision": "9c3205821b60307ecd4d7d4fc57b44fa",
@@ -80,16 +84,16 @@ self.__precacheManifest = [
     "url": "/static/media/figma-1.80505242.svg"
   },
   {
-    "revision": "112d06b27bef60a98756",
-    "url": "/static/js/main.d50088c4.chunk.js"
+    "revision": "0763f2492d17c139e43c5bcea423d9c7",
+    "url": "/static/media/moodle-original.0763f249.svg"
   },
   {
     "revision": "b573a7344fb4fed97e4d8669fbaf04ae",
     "url": "/static/media/CYN desktop home page.b573a734.gif"
   },
   {
-    "revision": "676cfcf2c4793e04817ac8923f3b7110",
-    "url": "/static/media/CYN desktop home page.676cfcf2.png"
+    "revision": "2794c9f9ae1a16b7fb24",
+    "url": "/static/js/main.a705e41b.chunk.js"
   },
   {
     "revision": "0c2d93e1cb8f6ea56cf4deef1be3d04e",
@@ -140,6 +144,26 @@ self.__precacheManifest = [
     "url": "/static/media/Teach-Tools tablet game control.351e925b.png"
   },
   {
+    "revision": "c1eb0daa54960fd35bf6fead512e6a4a",
+    "url": "/static/media/msba-desktop-2.c1eb0daa.png"
+  },
+  {
+    "revision": "89707e965ef2f62bbaf1568f07ae4202",
+    "url": "/static/media/msba-tablet-1.89707e96.png"
+  },
+  {
+    "revision": "5ddd6b7a6cecda77cfc4042bcfddedd4",
+    "url": "/static/media/msba-mobile-1.5ddd6b7a.png"
+  },
+  {
+    "revision": "46186ff926a0eb09690db092d7ae1e16",
+    "url": "/static/media/msba-mobile-2.46186ff9.png"
+  },
+  {
+    "revision": "b9ad6bd0fb631491290e18c2f2d4149b",
+    "url": "/static/media/msba-mobile-3.b9ad6bd0.png"
+  },
+  {
     "revision": "26d78405550c4d2e27731b9d67ac75cb",
     "url": "/static/media/round-phone_iphone-24px.26d78405.svg"
   },
@@ -156,7 +180,7 @@ self.__precacheManifest = [
     "url": "/static/media/birds-black-and-white-black-and-white-1229102.50950c86.jpg"
   },
   {
-    "revision": "9801950b34f102f4cfc5f917c231880c",
+    "revision": "97504a70bdfeca55bbf47e561853c303",
     "url": "/index.html"
   }
 ];
