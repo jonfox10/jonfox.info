@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import './Projects.css'
 import cynHomeGif from '../images/cyn-project/CYN desktop home page.gif'
 import ttGame from '../images/teach-tools/Teach-Tools desktop game display.png'
+import msba1 from '../images/scoreapp/msba-desktop-1.png'
 import CynModal from './CynModal.js'
 import TToolsModal from './TToolsModal.js'
+import MyScoreAppModal from './MyScoreAppModal.js'
+
 
 const Projects = () => {
 
@@ -17,6 +20,7 @@ const Projects = () => {
                     <>
                     <CynModal visableCyn={visableCyn} setVisableCyn={setVisableCyn}/>
                     <TToolsModal visableTt={visableTt} setVisableTt={setVisableTt} />
+                    <MyScoreAppModal visableTt={visableTt} setVisableTt={setVisableTt} />
                     </>
                 ) : (
                     <div/>
@@ -41,6 +45,16 @@ const Projects = () => {
                     <div className='link-container'>
                         <h4><a href='https://www.teach-tools.com/' target='_blank' rel="noopener noreferrer" >LIVE SITE</a></h4>
                         <h4><a href='https://github.com/TTTMLMGAMF/Group' target='_blank' rel="noopener noreferrer" >GITHUB</a></h4>
+                    </div>
+                </div>
+                <div className='project-content'>
+                    <img src={msba1} alt='my scoreboard app screenshot' onClick={() => setVisableTt(!visableTt)}/>
+                    <h6>MY SCOREBOARD APP</h6>
+                    <p>Web app allows user to display and control a basketball scoreboard. The front end was built with React and Backend is running on Node, and Express. Massive connects to PostgreSQL database. Auth uses bcryptjs to salt and hash user password.</p> 
+                    <button className='seeMoreBtn' onClick={() => setVisableTt(!visableTt)}>CLICK TO SEE GALLERY</button>
+                    <div className='link-container'>
+                        <h4><a href='https://scoreapp.jonfox.info/' target='_blank' rel="noopener noreferrer" >LIVE SITE</a></h4>
+                        <h4><a href='https://github.com/jonfox10/my-scoreboard' target='_blank' rel="noopener noreferrer" >GITHUB</a></h4>
                     </div>
                 </div>
             </div>
